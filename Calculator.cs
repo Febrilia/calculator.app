@@ -48,7 +48,6 @@ namespace Calculator
             Console.WriteLine(); // tambahkan baris kosong
 
             if ( pilihan == 'A' || pilihan == 'a') {
-            Console.WriteLine("Masukkan bilangan pertama : ");
             bil1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Masukkan bilangan kedua : ");
             bil2 = Convert.ToDouble(Console.ReadLine());
@@ -56,7 +55,6 @@ namespace Calculator
             }
 
             else if (pilihan == 'B' || pilihan == 'b') {
-            Console.WriteLine("Masukkan bilangan pertama : ");
             bil1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Masukkan bilangan kedua : ");
             bil2 = Convert.ToDouble(Console.ReadLine());
@@ -64,7 +62,6 @@ namespace Calculator
             }
 
             else if (pilihan == 'C' || pilihan == 'c') {
-            Console.WriteLine("Masukkan bilangan pertama : ");
             bil1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Masukkan bilangan kedua : ");
             bil2 = Convert.ToDouble(Console.ReadLine());
@@ -72,13 +69,12 @@ namespace Calculator
             }
 
             else if (pilihan == 'D' || pilihan == 'd') {
-            Console.WriteLine("Masukkan bilangan pertama : ");
             bil1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Masukkan bilangan kedua : ");
             bil2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(" Hasilnya Adalah : "+(bil1,bil2)+);
             }
-
+			
             Console.WriteLine("\nTekan sembarangan key untuk keluar");
             Console.Readkey();
         }
